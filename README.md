@@ -1,11 +1,13 @@
 # Cognipeer JavaScript Client
 
+[![npm](https://img.shields.io/npm/v/@cognipeer/client-js?color=success)](https://npmjs.com/package/@cognipeer/client-js)
+
 A lightweight JavaScript client for the Cognipeer API. Works in both Node.js (CommonJS) and TypeScript environments.
 
 ## Installation
 
 ```bash
-npm install cognipeer-client
+npm i @cognipeer/client-js
 ```
 
 ## Usage
