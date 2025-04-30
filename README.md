@@ -15,7 +15,7 @@ npm i @cognipeer/client-js
 ### TypeScript / ES Modules
 
 ```typescript
-import CognipeerClient from 'cognipeer-client';
+import CognipeerClient from '@cognipeer/client-js';
 
 // Initialize the client
 const client = new CognipeerClient({
@@ -96,7 +96,7 @@ console.log(result); // Output values mapped by output name
 ### Node.js (CommonJS)
 
 ```javascript
-const CognipeerClient = require('cognipeer-client');
+const CognipeerClient = require('@cognipeer/client-js');
 
 // Initialize the client
 const client = new CognipeerClient({
