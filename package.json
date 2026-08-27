@@ -8,7 +8,7 @@
     "build": "tsc",
     "test": "jest",
     "prepare": "npm run build",
-    "prepublishOnly": "npm i && npm run build",
+    "prepublishOnly": "npm run build",
     "publish-private": "npm publish",
     "publish-public": "npm publish --access public"
   },
