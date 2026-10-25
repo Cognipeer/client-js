@@ -19,9 +19,13 @@
   ],
   "author": "",
   "license": "MIT",
+  "homepage": "https://docs.cognipeer.com/developers/client-libraries/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Cognipeer/client-js"
+    "url": "git+https://github.com/Cognipeer/client-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Cognipeer/client-js/issues"
   },
   "devDependencies": {
     "@types/jest": "^29.5.0",

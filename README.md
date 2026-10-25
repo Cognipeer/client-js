@@ -1,6 +1,7 @@
 # Cognipeer JavaScript Client
 
 [![npm](https://img.shields.io/npm/v/@cognipeer/client-js?color=success)](https://npmjs.com/package/@cognipeer/client-js)
+[![license](https://img.shields.io/github/license/Cognipeer/client-js)](./LICENSE)
 
 A lightweight JavaScript client for the Cognipeer API. Works in both Node.js (CommonJS) and TypeScript environments.
 
@@ -360,6 +361,21 @@ const client = new CognipeerClient({
   token: 'your-local-token'
 });
 ```
+
+## Cognipeer open-source projects
+
+| Project | What it does |
+| --- | --- |
+| [Cognipeer Console](https://github.com/Cognipeer/console) | Self-hosted AI gateway and control plane: OpenAI-compatible routing, RAG, MCP hub, guardrails and agent tracing |
+| [console-sdk](https://github.com/Cognipeer/console-sdk) | TypeScript SDK for the Cognipeer Console API |
+| [agent-sdk](https://github.com/Cognipeer/agent-sdk) | Lightweight, message-first agent runtime |
+| [agent-server](https://github.com/Cognipeer/agent-server) | Ready-made REST API layer for AI agents |
+| [chat-ui](https://github.com/Cognipeer/chat-ui) | React chat UI components for AI agents |
+| [to-markdown](https://github.com/Cognipeer/to-markdown) | Convert PDF, Office, HTML and more to Markdown for LLM pipelines |
+| [graph-builder](https://github.com/Cognipeer/graph-builder) | Turn text sources into a queryable graph |
+| [cognipeer-observability](https://github.com/Cognipeer/cognipeer-observability) | Drop-in agent tracing for LangChain, LangGraph, OpenAI Agents and OpenTelemetry |
+
+If this project is useful to you, a ⭐ on GitHub helps other developers find it.
 
 ## License
 
