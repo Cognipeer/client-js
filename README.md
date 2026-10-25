@@ -5,6 +5,8 @@
 
 A lightweight JavaScript client for the Cognipeer API. Works in both Node.js (CommonJS) and TypeScript environments.
 
+> **Which package should I use?** This package and [`@cognipeer/sdk`](https://github.com/Cognipeer/client-sdk) both work with the Cognipeer AI API. `@cognipeer/client-js` is a small client for peers, conversations and app execution. `@cognipeer/sdk` also covers client-side tool execution, flows, contacts, channels and an embeddable webchat. For the self-hosted Cognipeer Console, use [`@cognipeer/console-sdk`](https://github.com/Cognipeer/console-sdk).
+
 ## Installation
 
 ```bash
@@ -376,6 +378,8 @@ const client = new CognipeerClient({
 | [cognipeer-observability](https://github.com/Cognipeer/cognipeer-observability) | Drop-in agent tracing for LangChain, LangGraph, OpenAI Agents and OpenTelemetry |
 
 If this project is useful to you, a ⭐ on GitHub helps other developers find it.
+
+Questions or enterprise support: [developer@cognipeer.com](mailto:developer@cognipeer.com).
 
 ## License
 
